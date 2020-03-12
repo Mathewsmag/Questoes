@@ -17,12 +17,6 @@ public static void main(String [] args){
     Lampada.desliga();
   }
   System.out.println(Lampada.observa());
-  input.close();
-
-
-
-  
-
-  
+  input.close();  
 }
 }
