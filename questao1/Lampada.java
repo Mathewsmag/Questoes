@@ -1,21 +1,21 @@
 package questao1;
 
 public class Lampada {
-  boolean ligada;
+  public static boolean ligada;
 
-public void liga(){
-  this.ligada = true;
-
-}
-public void desliga(){
-  this.desliga = false;
+public static void liga(){
+  ligada = true;
 
 }
-public String observa(){
-  if (ligada = true){
+public static void desliga(){
+  ligada = false;
+
+}
+public static String observa() {
+  if (ligada == true){
     return "ligada";
   }
-  if (desligada = false){
+  else {
     return "desligada";
   }
 }
